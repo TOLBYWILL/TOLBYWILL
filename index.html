@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Pokémon Battle</h1>
+        <div class="pokemon-container">
+            <!-- Player 1 -->
+            <div class="pokemon" id="player1">
+                <h2>Player 1's Pokémon</h2>
+                <p class="pokemon-name" id="player1-name"></p>
+                <p class="pokemon-hp" id="player1-hp"></p>
+            </div>
+
+            <!-- Player 2 -->
+            <div class="pokemon" id="player2">
+                <h2>Player 2's Pokémon</h2>
+                <p class="pokemon-name" id="player2-name"></p>
+                <p class="pokemon-hp" id="player2-hp"></p>
+            </div>
+        </div>
+
+        <div class="battle-controls">
+            <button id="attack-button">Attack!</button>
+            <button id="heal-button">Heal</button>
+            <button id="restart-button">Restart</button>
+        </div>
+
+        <div class="log" id="log"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
